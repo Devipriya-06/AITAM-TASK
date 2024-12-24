@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountain travel website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.landing{
+    background:url("pexels-stywo-1054218 copy.jpg");
+    height: 100vh;
+    background-size:cover ;
+   
+    
+}
+.landing h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgba(68, 23, 82, 0.628);
+    padding-top: 110px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.landing p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    padding-top: 40px;
+    font-style:italic;
+}
+.landing button{
+ padding:10px 50px;
+ background-color: hwb(308 55% 12% / 0.434);
+ color: rgb(27, 50, 125);
+ border: 2px solid rgb(224, 176, 234);
+ cursor:pointer;
+ margin-top: 30px;
+ margin-left: 650px;
+ font-size: 20px;
+ border-radius: 30px;
+}
+.navbar{
+    background-color: rgba(48, 78, 103, 0.861);
+  
+    display: flex;
+   justify-content:space-between;
+   padding: 10px;
+  
+    
+}
+.logo{
+    color: rgb(249, 250, 252);
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+   
+}
+.navlinks{
+    display: flex;
+    list-style-type: none;
+   gap:100px;
+   padding-top: 10px;
+
+
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+}
+li a:hover{
+   
+    color: rgb(18, 1, 1);
+}
+.gallery img{
+    height: 300px;
+    width: 300px;  
+}
+.heading{
+    color: rgb(89, 104, 219) ;
+    padding-top: 20px;  
+    text-align:center;
+
+}
+.gallery{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+   
+}
+.img1{
+    border: 1px solid rgb(204, 197, 197);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow:  0px 2px 14px rgb(220, 219, 219);
+
+}
+.img1 h2{
+    text-align: center;
+    color: rgb(87, 63, 225);
+    font-size: 25px;
+    padding-top: 10px;
+}
+.img1 p{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(136, 189, 84);
+    padding-top: 12px;
+}
+.img1 button{
+    padding: 5px 10px;
+    cursor:pointer;
+    margin-top: 30px;
+    margin-left: 95px;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: rgba(178, 214, 235, 0.758);
+    border-color: rgb(193, 198, 241);
+    color: rgb(11, 11, 11);
+   }
+
+
+
+</style>
+
+<body>
+    <header >
+        <nav class="navbar">
+        <div class="logo">MOUNTAIN TRAVEL</div>
+        <ul class="navlinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#home">News</a></li>
+            <li><a href="#home">About</a></li>
+            <li><a href="#home">Contact</a></li>
+           
+        </ul>
+        </nav>
+
+    </header>
+    <header class="landing">
+    <h1>Explore the Mighty Mountains</h1>
+    <p>Plan your next adventure with our curated mountains </p>
+    <button>Know more..</button>
+    </header>
+    <h1 class=heading ><i>Popular Destinations</i></h1>
+<div class="gallery">
+
+    <div class="img1">
+        <a href=""><img src="m1.jpeg"></a>
+        <h2>Switzwerland</h2>
+        <p>Experience the beauty of Place and make Memories</p>
+        <a href="form.html"><button>Book Now</button></a>
+      </div>
+      
+      <div class="img1">
+        <a href=""><img src="m2.jpg"></a>
+        <h2>Ladak</h2>
+        <p>Experience the beauty of Place and make Memories</p>
+        <a href="form.html"><button>Book Now</button></a>
+      </div>
+      
+      <div class="img1">
+        <a href=""><img src="m3.jpg" ></a>
+        <h2>Manali</h2>
+        <p>Experience the beauty of Place and make Memories </p>
+        <a href="form.html"><button>Book Now</button></a>
+      </div>
+
+    </div>
+    
+</body>
+</html>
